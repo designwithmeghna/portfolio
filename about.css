@@ -1,0 +1,44 @@
+.about-text {
+  width: 75%;
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  width: 60%;
+  margin-top: 2vh;
+}
+
+.flex-item {
+  width: 50%;
+  padding: 10px;
+}
+
+.flex-item > h2 {
+  text-align: start;
+  color: lightblue;
+}
+
+.flex-item > p {
+  padding: 20px;
+}
+
+/* for responsiveness */
+@media (max-width: 600px) {
+  .flex {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 2vh;
+  }
+  .flex-item {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .flex-item > h2 {
+    text-align: start;
+    color: lightblue;
+    font-size: 2.2rem;
+  }
+}

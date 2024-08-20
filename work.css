@@ -1,5 +1,6 @@
 #projects {
   margin-top: 5vh;
+  height: 150vh;
 }
 
 .project-title {
@@ -49,11 +50,11 @@
 @media (max-width: 600px) {
   .projects-grid {
     grid-template-columns: 1fr;
-    padding-left: 6%;
+    padding-left: 0;
   }
 
   #projects {
     margin-top: 15vh;
-    height: 140vh;
+    height: 180vh ;
   }
 }

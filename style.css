@@ -153,9 +153,11 @@ img {
   justify-content: center;
   align-items: center;
   width: 95%;
-  height: 98vh;
+  height: 100vh;
   background-color: white;
   margin-top: 4vh;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .welcome-section > p {
